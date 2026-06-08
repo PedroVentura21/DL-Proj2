@@ -12,6 +12,13 @@ Para instalar todas as dependências necessárias para executar os
 notebooks, abra o terminal na pasta do projeto e execute o seguinte 
 comando:
 
+# 1. Criar o ambiente virtual
+python -m venv qsar_env
+
+# 2. Ativar o ambiente (Windows)
+qsar_env\Scripts\activate
+
+# 3. Instalar as dependências do projeto
 pip install tensorflow==2.10.0 pandas numpy scikit-learn matplotlib seaborn jupyter
 
 (Nota: O tensorflow==2.10.0 é compatível de forma nativa com a CPU. 
