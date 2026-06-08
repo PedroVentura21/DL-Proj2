@@ -1,0 +1,18 @@
+=== RELATÓRIO DE MÉTRICAS: BACE_C ===
+
+--- BASELINE (CNN DO ZERO) ---
+Acurácia Treino: 0.9679
+Acurácia Val:    0.6242
+Acurácia Teste:  0.7218 | AUC-ROC: 0.8205
+Matriz de Confusão (teste):
+[[62 16]
+ [21 34]]
+
+--- FINE-TUNING (MOBILENETV2) ---
+Acurácia Treino: 0.9621
+Acurácia Val:    0.7394
+Acurácia Teste:  0.8346 | AUC-ROC: 0.9203
+Matriz de Confusão (teste):
+[[66 12]
+ [10 45]]
+
